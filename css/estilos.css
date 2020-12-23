@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&family=Mali:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(135deg, rgba(5, 160, 5, 0.795), rgba(209, 12, 209, 0.877));
+}
+h1{
+    font-family: 'Langar', cursive;
+    size: 300px;
+    text-align: center;
+    background-color: rgb(16, 170, 119);
+    color: black;
+}
+    h1:hover{
+        text-shadow: 2px 2px yellowgreen;
+    }
+    h1:active{
+        text-shadow: 2px 2px 9px yellow;
+    }
+.tablero{
+    border: 1px solid black;
+}
+p{
+    font-family: 'Langar', cursive;
+    font-family: 'Mali', cursive;
+}
+img{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+} 
+.card{
+    background-color: salmon;
+    border: 1px solid black;
+}
